@@ -1,0 +1,56 @@
+body{
+  padding: 0;
+  margin: 0;
+  color: 000;
+  font-size: 16px;
+  font-family: "Lucida Console", "Courier New", monospace;
+
+}
+h1,h2,h3,h4,h5,h6{
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+.cent{
+  text-align: center;
+}
+.tit{
+  margin: 50px;
+}
+
+.gallery{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.gallery img{
+  width: 100%;
+  height: 270px;
+  border: 2px solid black;
+  border-width: medium;
+  border-style: double;
+}
+.img_left{
+  margin-left: 250px;
+}
+.img_left p{
+  padding-left: 125px;
+  text-transform: uppercase;
+  font-size: 32px;
+}
+.img_right{
+  margin-right: 250px;
+}
+.img_right p{
+  padding-left: 125px;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+.formm{
+  margin: 50px;
+  padding-left: 100px;
+}
+.bonus {
+  padding-left: 50px;
+}
